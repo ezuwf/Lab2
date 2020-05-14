@@ -1,0 +1,19 @@
+!DOCTYPE <html>
+    <head>
+        <meta charset="utf-8" />
+       <title>Lab2 </title>
+     </head>
+      <body>
+        <script>
+            var age = prompt("Введите ваш возраст");
+            if (age==null)
+            {
+                age = prompt("Введите ваш возраст")
+                confirm("Вы уверены, что вам "+age+"?")
+        }
+            else
+            {confirm("Вы уверены, что вам "+age+"?")}
+        </script>
+      </body>
+</html>
+    
